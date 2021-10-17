@@ -135,15 +135,6 @@
     text-transform: uppercase;
 }
 
-
-/* $blue: #333751;
-$blue-grey: #66697e;
-$bd: 1px solid $grey; */
-
-
-/* default styles here for older browsers.
-   I tend to go for a 600px - 960px width max but using percentages
-*/
 @media only screen and (min-width: 960px) {
     /* styles for browsers larger than 960px; */
 }
