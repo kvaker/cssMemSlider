@@ -148,21 +148,51 @@ $bd: 1px solid $grey; */
     /* styles for browsers larger than 960px; */
 }
 @media only screen and (min-width: 1440px) {
-    /* styles for browsers larger than 1440px; */
+    .wrapper {
+        max-width: 1200px;
+            }
+            .slider{
+                max-width: 1200px;
+            }
 }
 @media only screen and (min-width: 2000px) {
-    /* for sumo sized (mac) screens */
+    .wrapper {
+        max-width: 1900px;
+            }
+            .slider{
+                max-width: 1900px;
+            }
 }
 @media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .wrapper {
+        max-width: 450px;
+            }
+            .slider{
+                max-width: 450px;
+            }
 }
 @media only screen and (device-width: 768px) {
-    /* default iPad screens */
+    .wrapper {
+        max-width: 600px;
+            }
+            .slider{
+                max-width: 600px;
+            }
 }
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-    /* For portrait layouts only */
+    .wrapper {
+        max-width: 450px;
+            }
+            .slider{
+                max-width: 450px;
+            }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
-    /* For landscape layouts only */
+    .wrapper {
+        max-width: 450px;
+            }
+            .slider{
+                max-width: 450px;
+            }
 }
