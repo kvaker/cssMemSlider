@@ -1,1 +1,1 @@
-https://github.com/kvaker/cssMemSlider/index.html
+cssMemSlider/index.html
